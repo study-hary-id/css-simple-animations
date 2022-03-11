@@ -43,6 +43,9 @@
             z-index: -1;
             transform: translateX(-100%);
         }
+        .btn.before-pills::before {
+            border-radius: 25px;
+        }
         .btn:hover::before {
             transform: translateX(0);
         }
@@ -50,5 +53,6 @@
 </head>
 <body>
     <a href="#" class="btn">Hover Me</a>
+    <a href="#" class="btn before-pills">Hover Me</a>
 </body>
 </html>
